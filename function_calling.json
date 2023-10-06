@@ -1,0 +1,34 @@
+[
+    {
+        "name": "on_command",
+        "description": "「ライトをつけて」とお願いしたときに使います。",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "command": {
+                    "type": "string",
+                    "description": "on が固定値で入ります"
+                }
+            },
+            "required": [
+                "command"
+            ]
+        }
+    },
+    {
+        "name": "off_command",
+        "description": "「ライトを消して」とお願いしたときに使います。",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "command": {
+                    "type": "string",
+                    "description": "off が固定値で入ります"
+                }
+            },
+            "required": [
+                "command"
+            ]
+        }
+    }
+]
